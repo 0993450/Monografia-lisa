@@ -1,0 +1,330 @@
+\ifglsentryexists{UnB}{}%
+{%
+\gls@defglossaryentry{UnB}%
+{%
+name={UnB},%
+sort={UnB},%
+type={acronym},%
+first={Universidade de Bras\IeC {\'\i }lia (UnB)},%
+firstplural={Universidade de Bras\IeC {\'\i }lias(UnBs)},%
+text={UnB},%
+plural={UnBs},%
+description={Universidade de Brasília},%
+descriptionplural={Universidade de Brasília\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Universidade de Bras\IeC {\'\i }lia},%
+longplural={Universidade de Bras\IeC {\'\i }lias},%
+short={UnB},%
+shortplural={UnBs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CIC}{}%
+{%
+\gls@defglossaryentry{CIC}%
+{%
+name={CIC},%
+sort={CIC},%
+type={acronym},%
+first={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o (CIC)},%
+firstplural={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}os(CICs)},%
+text={CIC},%
+plural={CICs},%
+description={Departamento de Ciência da Computação},%
+descriptionplural={Departamento de Ciência da Computação\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}o},%
+longplural={Departamento de Ci\IeC {\^e}ncia da Computa\IeC {\c c}\IeC {\~a}os},%
+short={CIC},%
+shortplural={CICs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{SBIE}{}%
+{%
+\gls@defglossaryentry{SBIE}%
+{%
+name={SBIE},%
+sort={SBIE},%
+type={acronym},%
+first={Simp\IeC {\'o}sio Brasileiro de Inform\IeC {\'a}tica na Educa\IeC {\c c}\IeC {\~a}o (SBIE)},%
+firstplural={Simp\IeC {\'o}sio Brasileiro de Inform\IeC {\'a}tica na Educa\IeC {\c c}\IeC {\~a}os(SBIEs)},%
+text={SBIE},%
+plural={SBIEs},%
+description={Simpósio Brasileiro de Informática na Educação},%
+descriptionplural={Simpósio Brasileiro de Informática na Educação\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Simp\IeC {\'o}sio Brasileiro de Inform\IeC {\'a}tica na Educa\IeC {\c c}\IeC {\~a}o},%
+longplural={Simp\IeC {\'o}sio Brasileiro de Inform\IeC {\'a}tica na Educa\IeC {\c c}\IeC {\~a}os},%
+short={SBIE},%
+shortplural={SBIEs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{MEC}{}%
+{%
+\gls@defglossaryentry{MEC}%
+{%
+name={MEC},%
+sort={MEC},%
+type={acronym},%
+first={Minist\IeC {\'e}rio da Educa\IeC {\c c}\IeC {\~a}o (MEC)},%
+firstplural={Minist\IeC {\'e}rio da Educa\IeC {\c c}\IeC {\~a}os(MECs)},%
+text={MEC},%
+plural={MECs},%
+description={Ministério da Educação},%
+descriptionplural={Ministério da Educação\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Minist\IeC {\'e}rio da Educa\IeC {\c c}\IeC {\~a}o},%
+longplural={Minist\IeC {\'e}rio da Educa\IeC {\c c}\IeC {\~a}os},%
+short={MEC},%
+shortplural={MECs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EAD}{}%
+{%
+\gls@defglossaryentry{EAD}%
+{%
+name={EAD},%
+sort={EAD},%
+type={acronym},%
+first={Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncia (EAD)},%
+firstplural={Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncias(EADs)},%
+text={EAD},%
+plural={EADs},%
+description={Educação à Distância},%
+descriptionplural={Educação à Distância\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncia},%
+longplural={Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncias},%
+short={EAD},%
+shortplural={EADs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AbraEAD}{}%
+{%
+\gls@defglossaryentry{AbraEAD}%
+{%
+name={AbraEAD},%
+sort={AbraEAD},%
+type={acronym},%
+first={Anu\IeC {\'a}rio Brasileiro Estat\IeC {\'\i }stico de Educa\IeC {\c c}\IeC {\~a}o Aberta e a Dist\IeC {\^a}ncia (AbraEAD)},%
+firstplural={Anu\IeC {\'a}rio Brasileiro Estat\IeC {\'\i }stico de Educa\IeC {\c c}\IeC {\~a}o Aberta e a Dist\IeC {\^a}ncias(AbraEADs)},%
+text={AbraEAD},%
+plural={AbraEADs},%
+description={Anuário Brasileiro Estatístico de Educação Aberta e a Distância},%
+descriptionplural={Anuário Brasileiro Estatístico de Educação Aberta e a Distância\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Anu\IeC {\'a}rio Brasileiro Estat\IeC {\'\i }stico de Educa\IeC {\c c}\IeC {\~a}o Aberta e a Dist\IeC {\^a}ncia},%
+longplural={Anu\IeC {\'a}rio Brasileiro Estat\IeC {\'\i }stico de Educa\IeC {\c c}\IeC {\~a}o Aberta e a Dist\IeC {\^a}ncias},%
+short={AbraEAD},%
+shortplural={AbraEADs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ABED}{}%
+{%
+\gls@defglossaryentry{ABED}%
+{%
+name={ABED},%
+sort={ABED},%
+type={acronym},%
+first={Associa\IeC {\c c}\IeC {\~a}o Brasileira de Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncia (ABED)},%
+firstplural={Associa\IeC {\c c}\IeC {\~a}o Brasileira de Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncias(ABEDs)},%
+text={ABED},%
+plural={ABEDs},%
+description={Associação Brasileira de Educação à Distância},%
+descriptionplural={Associação Brasileira de Educação à Distância\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Associa\IeC {\c c}\IeC {\~a}o Brasileira de Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncia},%
+longplural={Associa\IeC {\c c}\IeC {\~a}o Brasileira de Educa\IeC {\c c}\IeC {\~a}o \IeC {\`a} Dist\IeC {\^a}ncias},%
+short={ABED},%
+shortplural={ABEDs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IES}{}%
+{%
+\gls@defglossaryentry{IES}%
+{%
+name={IES},%
+sort={IES},%
+type={acronym},%
+first={Institui\IeC {\c c}\IeC {\~a}o de Ensino Superior (IES)},%
+firstplural={Institui\IeC {\c c}\IeC {\~a}o de Ensino Superiors(IESs)},%
+text={IES},%
+plural={IESs},%
+description={Instituição de Ensino Superior},%
+descriptionplural={Instituição de Ensino Superior\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Institui\IeC {\c c}\IeC {\~a}o de Ensino Superior},%
+longplural={Institui\IeC {\c c}\IeC {\~a}o de Ensino Superiors},%
+short={IES},%
+shortplural={IESs},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{Inep}{}%
+{%
+\gls@defglossaryentry{Inep}%
+{%
+name={Inep},%
+sort={Inep},%
+type={acronym},%
+first={Instituto Nacional de Estudos e Pesquisas Educacionais An\IeC {\'\i }sio Teixeira (Inep)},%
+firstplural={Instituto Nacional de Estudos e Pesquisas Educacionais An\IeC {\'\i }sio Teixeiras(Ineps)},%
+text={Inep},%
+plural={Ineps},%
+description={Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira},%
+descriptionplural={Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Instituto Nacional de Estudos e Pesquisas Educacionais An\IeC {\'\i }sio Teixeira},%
+longplural={Instituto Nacional de Estudos e Pesquisas Educacionais An\IeC {\'\i }sio Teixeiras},%
+short={Inep},%
+shortplural={Ineps},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{CEEs}{}%
+{%
+\gls@defglossaryentry{CEEs}%
+{%
+name={CEEs},%
+sort={CEEs},%
+type={acronym},%
+first={Conselhos Estaduais de Educa\IeC {\c c}\IeC {\~a}o (CEEs)},%
+firstplural={Conselhos Estaduais de Educa\IeC {\c c}\IeC {\~a}os(CEEss)},%
+text={CEEs},%
+plural={CEEss},%
+description={Conselhos Estaduais de Educação},%
+descriptionplural={Conselhos Estaduais de Educação\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Conselhos Estaduais de Educa\IeC {\c c}\IeC {\~a}o},%
+longplural={Conselhos Estaduais de Educa\IeC {\c c}\IeC {\~a}os},%
+short={CEEs},%
+shortplural={CEEss},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AVA}{}%
+{%
+\gls@defglossaryentry{AVA}%
+{%
+name={AVA},%
+sort={AVA},%
+type={acronym},%
+first={Ambiente Virtual de Aprendizagem (AVA)},%
+firstplural={Ambiente Virtual de Aprendizagems(AVAs)},%
+text={AVA},%
+plural={AVAs},%
+description={Ambiente Virtual de Aprendizagem},%
+descriptionplural={Ambiente Virtual de Aprendizagem\acrpluralsuffix },%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={Ambiente Virtual de Aprendizagem},%
+longplural={Ambiente Virtual de Aprendizagems},%
+short={AVA},%
+shortplural={AVAs},%
+counter={page},%
+parent={},%
+%
+}%
+}%

@@ -1,0 +1,48 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classe do documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Opções:
+%  - Graduação: bacharelado|engenharia|licenciatura
+%  - Pós-graduação: [qualificacao], mestrado|doutorado, ppca|ppginf
+
+% \documentclass[engenharia]{UnB-CIC}%
+\documentclass[licenciatura]{UnB-CIC}%
+
+\usepackage{pdfpages}% incluir PDFs, usado no apêndice
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Informações do Trabalho
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\orientador{\prof[a] \dr[a] Letícia Lopes Leite}{CIC/UnB}%
+\coorientador{\prof[a] \dr[a] Maria Emília Gonzaga de Souza}{FE/UnB}
+\coordenador[a]{\prof \dr Wilson}{Universidade de Brasília}%
+\diamesano{20}{julho}{2018}%
+
+\membrobanca{\prof \dr Membro da banca}{Universidade de Brasília}%
+\membrobanca{\prof \dr Outro membro}{Universidade de Brasília}%
+
+\autor{Elisabete}{Evaldt}%
+
+\titulo{A Avaliação da Aprendizagem por Intermédio de Ambientes Virtuais de Aprendizagem}%
+
+\palavraschave{Avaliação da aprendizagem, ambiente virtual de aprendizagem, AVA}%
+\keywords{Learning evaluation, Learning Management System, LMS}%
+
+\newcommand{\unbcic}{\texttt{UnB-CIC}}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Texto
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}%
+    \capitulo{1_Introducao}{Introdução}%
+    \capitulo{2_Referencial}{Fundamentos da Avaliação}%
+    \capitulo{3_AVA}{A educação por intermédio do AVA}%
+    \capitulo{4_Mapeamento}{Mapeamento dos tipos da avaliação em AVA}%
+    \capitulo{5_Inspecao}{Pesquisa documental}%    
+    \capitulo{6_Resultados}{Discussão dos resultados}%
+    \capitulo{7_Final}{Considerações finais}%    
+    \apendice{Apendice_A}{Tabela de resultados de pesquisa}%
+    \anexo{Anexo1}{Resumo dos trabalhos encontrados}%
+\end{document}%

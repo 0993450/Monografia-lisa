@@ -1,0 +1,423 @@
+
+\label{chap:results}
+Este capítulo apresenta uma discussão dos resultados observados pela pesquisa documental realizada no capítulo anterior (\ref{chap:insp}) sob a ótica dos tipos de avaliação e das ferramentas identificadas nas propostas de avaliação encontradas na leitura desses documentos. Bem como da relação entre essas ferramentas e os tipos de avaliação. 
+
+Antes de iniciar essa discussão, no entanto, cabe esclarecer que a intenção por trás dessa análise é a de testar os conceitos, apresentados até aqui, sobre a prática de avaliação em AVA e não a de realizar uma análise das propostas apresentadas. De forma alguma pretende-se criticar se essas propostas atenderam ou não algum tipo de expectativa. 
+
+Destaca-se ainda que a análise documental consegue apenas coletar dados observáveis nos relatos dos autores, não garantindo que esses não fizeram muito mais do que o que se capturou durante a leitura. Dessa forma, espera-se que a discussão apresentada neste capítulo seja entendida como um exercício de investigação, e não como um parecer sobre o que está sendo abordado.
+
+\section{Análise quanto aos tipos de avaliação}%
+\label{sec:analise_aval}
+O levantamento dos tipos de avaliação, realizado no \refCap{chap:ref}, foi importante na tarefa de identificação dos referenciais pedagógicos de avaliação, descritos nos documentos da amostragem. 
+
+Em geral, a realização de um trabalho técnico-científico parece seguir um modelo no qual seus autores citam diversas referências teóricas que irão guiar seus objetivos ao longo de suas pesquisas e estudos. No contexto da amostragem utilizada, esses objetivos eram objetivos de avaliação também, uma vez que a própria metodologia de seleção documental foi direcionada para capturar essa finalidade. 
+
+Nos trabalhos analisados, foi verificada a presença dos tipos de avaliação encontrados durante o levantamento bibliográfico. Uma explicação para isso seria a de que ao decidir realizar uma avaliação, um autor ou docente se depara com questões como: o que irá ser avaliado? quem irá ser avaliado? como se dará a avaliação? em que local ela será realizada? de que forma? com qual finalidade? Essas questões levam o autor a buscar um embasamento teórico, o que pôde ser observado na amostra documental analisada, tanto pelo emprego explícito de termos como ``diagnóstica'' e ``formativa'', quanto pela menção indireta de termos similares associados com alguma descrição que caracterizasse um tipo. 
+
+O organograma dos tipos de avaliação (\refFig{fig:organogfunc}), apresentado no final do \refCap{chap:ref}, serviu de fonte visual de consulta, facilitando a identificação dos tipos de avaliação mencionados explicitamente dentro do texto durante a leitura dos documentos. Já a matriz de mapeamento das ferramentas do docente com os tipos de avaliação (\refFig{tab:matrizYxW}), apresentada no \refCap{chap:map}, auxiliou na identificação dos tipos de avaliação mencionados de forma implícita.
+
+Como exemplo, no documento T2 o autor mencionou a avaliação comportamental, ao relatar a avaliação de números de acessos e de mensagens trocadas. A diagnóstica, na aplicação de um questionário sobre familiarização da plataforma como pré-requisito da disciplina. E a de valores e atitudes, ao citar a necessidade de moderação sobre cópias literais sem citação de fontes nas atividades desenvolvidas pelos alunos no AVA. 
+
+%\textbf{--> NÃO PODES fazer referência a uma imagem que está no final deste capítulo. O máximo que pode é referenciar a imagem que está após este trecho de texto.}
+
+Como resultado final, o gráfico apresentado na \refFig{fig:t-aval} apresenta uma visão da quantidade de tipos de avaliação mencionadas, diferenciando a quantidade de tipos mencionadas explicitamente pelos autores das que foram capturadas implicitamente dentro do texto do documento.
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:t-aval}
+    \caption{Domínio de avaliação.}
+    \vspace{2mm}
+\begin{tikzpicture}
+\pgfplotsset{width=8cm,height=5cm,compat=1.8}
+\begin{axis}[
+    ybar stacked,
+	bar width=15pt,
+	nodes near coords,
+    enlargelimits=0.20,
+    ymin=0,
+    ymax=15,
+    legend style={at={(0.5,-0.20)},
+      anchor=north,legend columns=-1},
+    ylabel={Tipos de avaliação},
+    symbolic x coords={T1, T2, T3, T4, T5, T6, T7},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east},
+    ]
+\addplot+[ybar, draw=magenta, fill=magenta!30, text=magenta] plot coordinates {(T1,3) (T2,4) (T3,7) (T4,4) (T5,3) (T6,5) (T7,4)};
+\addplot+[ybar, draw=uclagold, fill=uclagold!30, text=uclagold] plot coordinates {(T1,5) (T2,2) (T3,1) (T4,0) (T5,3) (T6,2) (T7,3)};
+\legend{\strut explicitamente, \strut implicitamente}
+\end{axis}
+\end{tikzpicture}
+\source{a autora.}
+\end{figure}
+
+A lista contendo os tipos de avaliação mencionadas, apresentada na \refTab{tab:Q5}, representa nesse estudo a lista das variáveis contendo o conjunto \textbf{domínio de avaliação} de cada documento. Ou seja, quais aspectos e tipos de avaliação foram mencionados no âmbito de cada documento. A análise do gráfico desses domínios, sugere que alguns tipos de avaliação podem estar sendo realizadas sem que seus aspectos estejam sendo explicitamente considerados durante o planejamento dos modelos de avaliação. Ou que algumas avaliações poderiam estar sendo introduzidas conforme as situações vão sendo apresentadas aos docentes. Outra explicação seria que elas poderiam estar sendo aplicadas informalmente, servindo de diagnóstico e acompanhamento. De qualquer forma, não cabe ao escopo desse estudo de caso investigar isso e, talvez, aqui esteja uma possibilidade de investigação futura.
+
+ Porém, outra curiosidade pode surgir ao se observar essa tabela: quais são os tipos de avaliação mais mencionados nessa amostragem? O gráfico da \refFig{fig:t-aval-geral} mostra a visão dos tipos mencionados explicitamente e implicitamente.
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:t-aval-geral}
+    \caption{Tipos de avaliação mencionadas.}
+    \vspace{2mm}
+\begin{tikzpicture}
+\pgfplotsset{width=15cm,height=5cm,compat=1.8}
+\begin{axis}[
+    ybar stacked,
+	bar width=14pt,
+	nodes near coords,
+    enlargelimits=0.20,
+    ymin=0,
+    ymax=15,
+    legend style={at={(0.5,-0.45)},
+      anchor=north,legend columns=-1},
+    ylabel={Tipos de avaliação},
+    symbolic x coords={formal, informal, instrucional, comportamental, valores e atitudes, pontual, contínua, somativa, diagnóstica, formativa, aluno, disciplina, equipe, plataforma, app de terceiros},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east},
+    ]
+\addplot+[ybar, draw=magenta, fill=magenta!30, text=magenta] plot coordinates 
+{(formal,0) (informal,1) (instrucional,0) (comportamental,1) (valores e atitudes,0) (pontual,0) (contínua,0) (somativa,1) (diagnóstica,2) (formativa,3) (aluno,7) (disciplina,6) (equipe,2) (plataforma,7) (app de terceiros,0)};
+\addplot+[ybar, draw=uclagold, fill=uclagold!30, text=uclagold] plot coordinates {(formal,0) (informal,0) (instrucional,2) (comportamental,3) (valores e atitudes,1) (pontual,0) (contínua,2) (somativa,1) (diagnóstica,3) (formativa,2) (aluno,0) (disciplina,1) (equipe,1) (plataforma,0) (app de terceiros,0)};
+\legend{\strut explicitamente, \strut implicitamente}
+\end{axis}
+\end{tikzpicture}
+\source{a autora.}
+\end{figure}
+
+A visão do gráfico aponta uma preocupação maior com a avaliação feitas dos alunos e da disciplina em si, e menos preocupação a avaliação da equipe multidisciplinar. Sugere também que há uma preocupação maior com as funções formativas e diagnóstica em detrimento da função somativa. A avaliação comportamental aparece mais implicitamente do que explicitamente. Por fim, a análise do gráfico sinaliza que houve pouca preocupação nos documentos em discutir explicitamente o aspecto da formalização (formal, informal), ficando subentendido pelo uso dos instrumentos de avaliação qual deles prevalece na prática.
+
+Por fim, nessa etapa houve o registro de uma dificuldade: o uso de termos similares ao se referir aos tipos de avaliação. Por exemplo, os autores do trabalho T1, ao discorrerem sobre o aspecto de frequência da avaliação, usaram o termo ``não isolada'' para se referir à avaliação contínua. Diante disso, observou-se que a elaboração de uma lista de termos associados a cada tipo de avaliação poderia facilitar a identificação dos tipos.
+
+\section{Análise quanto as ferramentas de AVA}%
+A catalogação das ferramentas, realizado no \refCap{chap:ava}, auxiliou na identificação das ferramentas mencionadas nos documentos analisados. Em ambas as etapas de identificação (ferramentas de uso dos alunos e de uso dos docentes).
+
+Entretanto, foi necessário separar as ferramentas mencionadas ao longo dos documentos daquelas em que houve o relato de uso. A lista de ferramentas identificadas como tendo sido apenas ``mencionadas'' no documento, somada a lista de ferramentas em que houve relatos de uso, compõem o conjunto de \textbf{ferramentas conhecidas} pelo autor de cada documento. Ou seja, o autor apresentou, no âmbito do documento, as ferramentas de que ele teria conhecimento ou que faziam parte do seu ambiente. Essa informação é importante pois não sabemos realmente quais ferramentas do Moodle estão disponíveis para seus docentes ou mesmo se ele conhece todas as ferramentas disponíveis.
+
+A partir da definição desse conjunto de ferramentas conhecidas, o conjunto de ferramentas identificadas como ``utilizadas'' teve sua contagem computada para compor a variável \textbf{adoção das ferramentas} em relação as ferramentas conhecidas. 
+
+\subsection{Adoção das ferramentas no perfil do aluno}%
+Levando-se em consideração o exposto acima, e a informação de que o documento T1 relatou ter utilizado 3 ferramentas do perfil do aluno, o entendimento foi o de que o autor mencionou conhecer 11 das ferramentas da plataforma e, portanto, adotou (27\%) das ferramentas que demonstrou ter conhecimento. 
+
+Esse mesmo entendimento foi aplicado para todos os documentos. E o gráfico da \refFig{fig:ferram_aluno} apresenta essa visão sobre as quantidades de ferramentas no perfil do aluno, mencionadas e utilizadas, de acordo com os dados coletados na \refTab{tab:Q2}.
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:ferram_aluno}
+    \caption{Adoção de ferramentas do perfil ``aluno''.}
+    \vspace{2mm}
+\begin{tikzpicture}
+\pgfplotsset{width=9cm, height=5cm,compat=1.8}
+\begin{axis}[
+    ybar stacked,
+	bar width=14pt,
+    ymin=0,
+    ymax=15,	
+	nodes near coords,
+    enlargelimits=0.20,
+    legend style={at={(0.5,-0.20)},
+      anchor=north,legend columns=-1},
+    ylabel={auxílio das aprendizagens},
+    symbolic x coords={T1, T2, T3, T4, T5, T6, T7},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east},
+    ]
+\addplot+[ybar, draw=forestgreen(web), fill=forestgreen(web)!40, text=forestgreen(web)] plot coordinates {(T1,3) (T2,6) 
+  (T3,9) (T4,3) (T5,7) (T6,8) (T7,4)};
+\addplot+[ybar, draw=uclagold, fill=uclagold!30, text=uclagold] plot coordinates {(T1,8) (T2,2) (T3,2) (T4,5) (T5,2) (T6,1) (T7,6)};
+\legend{\strut usadas, \strut mencionadas}
+\end{axis}
+\end{tikzpicture}
+    \vspace{2mm}
+    \source{a autora}
+\end{figure}
+
+Vale observar que o documento T2 foi conduzido em uma plataforma proprietária, da qual não se sabe o total de ferramentas disponíveis, porém a análise do gráfico sugere um percentual considerado alto de adoção (75\%) das ferramentas mencionadas. 
+
+Novamente aqui, pode-se utilizar a \refTab{tab:Q2} com os dados coletados na pergunta ``Q2'' para visualizarmos quais foram as ferramentas mais utilizadas na amostragem utilizada. O gráfico da \refFig{fig:ferram_maisutil} apresenta uma visão das ferramentas mencionadas e utilizadas.
+
+\begin{filecontents}{data.csv}
+ferram,	cite,	use
+Bate-papo,4,1
+Conferência,0,1
+Transmissão,0,0
+Exame,1,1
+Informações,1,3
+Quadro de Anúncios,0,0
+Mensagem,2,3
+Notificações,2,0
+Mural,1,0
+Fórum,0,7
+Calendário,0,0
+Repositório,1,5
+Wiki,4,0
+Glossário,3,0
+Mini página,0,2
+FAQ,0,0
+Enquete,0,2
+Aula Multimídia,2,5
+Tarefa,2,5
+Questionário,0,3
+Simulado,0,0
+Painel controle,0,1
+Quadro de Notas,0,1
+Quadro de medalhas,0,0
+Suporte,3,0
+\end{filecontents}
+\pgfplotstableread[col sep=comma,]{data.csv}\datatable
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:ferram_maisutil}
+    \caption{Ferramentas mais utilizadas do perfil ``aluno''.}
+    \vspace{2mm}
+\begin{tikzpicture}
+\pgfplotsset{width=16cm, height=5cm,compat=1.8}
+\begin{axis}[
+    ybar stacked,
+	bar width=10pt,
+    ymin=0,
+    ymax=15,	
+	nodes near coords,
+    enlargelimits=0.05,
+    legend style={at={(0.5,-0.46)},
+      anchor=north,legend columns=-1},
+    ylabel={auxílio das aprendizagens},
+    symbolic x coords={Bate-papo,Conferência,Transmissão,Exame,Informações,Quadro de Anúncios,Mensagem,Notificações,Mural,Fórum,Calendário,Repositório,Wiki,Glossário,Mini página,FAQ,Enquete,Aula Multimídia,Tarefa,Questionário,Simulado,Painel controle,Quadro de Notas,Quadro de medalhas,Suporte},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east,font=\footnotesize},
+    ]
+\addplot+[ybar, draw=forestgreen(web), fill=forestgreen(web)!40, text=forestgreen(web)] table [x=ferram, y=use, col sep=comma] {data.csv};
+\addplot+[ybar, draw=uclagold, fill=uclagold!40, text=uclagold] table [x=ferram, y=cite, col sep=comma] {data.csv};
+\legend{\strut usadas, \strut mencionadas}
+\end{axis}
+\end{tikzpicture}
+    \vspace{2mm}
+    \source{a autora}
+\end{figure}
+
+Pelo gráfico, pode-se verificar que a ferramenta mais utilizada é o Fórum, seguida do Repositório do curso, da área de Aula Multimídia e da área de entrega de Tarefas. No geral, há um predomínio de uso de ferramentas assíncronas nas propostas analisadas.
+
+
+\subsection{Adoção das ferramentas no perfil do professor}%
+Sobre as ferramentas disponíveis no perfil do professor, que podem ser utilizadas para acompanhar e auxiliar a avaliação, foi utilizado o mesmo critério em relação as ferramentas em que o autor demonstrou conhecer e as que ele relatou ter utilizado. Chegando-se na visão de adoção dessas ferramentas nas propostas apresentadas nos documentos analisados. 
+
+Vale destacar, novamente, que o documento T2 foi conduzido em uma plataforma proprietária, da qual não se sabe nem quais e nem quantas ferramentas de apoio docente estão disponíveis. No entanto, durante a verificação do documento em busca dessas ferramentas, todas as ferramentas identificadas coincidiam com as ferramentas identificas na catalogação realizada no \refCap{chap:ava}, indicando que existe uma similaridade nessas plataformas.
+
+O gráfico da \refFig{fig:ferram_profe} apresenta as quantidades de ferramentas mencionadas e utilizadas, de acordo com os dados coletados na  \refTab{tab:Q3}.
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:ferram_profe}
+    \caption{Adoção de ferramentas do perfil ``professor''.}
+    \vspace{2mm}
+\begin{tikzpicture}
+\pgfplotsset{width=9cm, height=5cm,compat=1.8}
+\begin{axis}[
+    ybar stacked,
+	bar width=14pt,
+    ymin=0,
+    ymax=15,	
+	nodes near coords,
+    enlargelimits=0.20,
+    legend style={at={(0.5,-0.20)},
+      anchor=north,legend columns=-1},
+    ylabel={auxílio da avaliação},
+    symbolic x coords={T1, T2, T3, T4, T5, T6, T7},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east},
+    ]
+\addplot+[ybar, draw=blue, fill=blue!40, text=blue] plot coordinates {(T1,0) (T2,6) 
+  (T3,2) (T4,0) (T5,9) (T6,6) (T7,4)};
+\addplot+[ybar, draw=uclagold, fill=uclagold!30, text=uclagold] plot coordinates {(T1,1) (T2,1) (T3,1) (T4,5) (T5,0) (T6,0) (T7,1)};
+\legend{\strut usadas, \strut mencionadas}
+\end{axis}
+\end{tikzpicture}
+    \vspace{2mm}
+    \source{a autora}
+\end{figure}
+
+Pela análise do gráfico, pode-se verificar que o documento T2 mencionou sete ferramentas do catálogo e relatou o uso de seis delas, ou seja, (85\%) das ferramentas de acompanhamento e apoio da avaliação que demonstrou conhecer. O documento T5 apresentou a utilização de (100\%) das ferramentas mencionadas, e a maior quantidade de ferramentas de uso do professor. O que é condizente com a proposta, já que esse documento relatou que a avaliação seria conduzida no AVA.
+
+Da mesma forma que foi feito para as ferramentas do aluno, utilizou-se a \refTab{tab:Q2} com os dados coletados na pergunta ``Q3'' para visualizarmos quais foram as ferramentas mais utilizadas na amostragem utilizada. O gráfico da \refFig{fig:ferram_maisutilprofe} apresenta essa visão. 
+
+\begin{filecontents}{data.csv}
+ferram,cite,use
+Gerenciamento de grupo,1,1
+Programação do curso,1,4
+Acompanhar anúncios,0,0
+Acompanhar notificações,1,2
+Recuperação de conteúdo,0,2
+Map. de Competências,0,3
+Acompanhar colaboração,1,4
+Acompanhar dificuldades,1,2
+Acompanhar questionários,2,2
+Revisão de textos,0,0
+Acompanhar tarefas,1,3
+Acompanhar aulas,0,1
+Acompanhar exames,0,1
+Registrar notas,0,0
+Acompanhar notas/feedback,1,0
+Orientação,0,1
+Moderação,0,1
+\end{filecontents}
+\pgfplotstableread[col sep=comma,]{data.csv}\datatable
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:ferram_maisutilprofe}
+    \caption{Ferramentas mais utilizadas do perfil ``professor''.}
+\begin{tikzpicture}
+\pgfplotsset{width=16cm, height=4cm,compat=1.6}
+\begin{axis}[
+    ybar stacked,
+	bar width=10pt,
+    ymin=0,
+    ymax=8,	
+	nodes near coords,
+    enlargelimits=0.05,
+    legend style={at={(0.89,-0.68),font=\tiny},
+      anchor=center,legend columns=-1},
+    ylabel={auxílio da avaliação},
+    symbolic x coords={Gerenciamento de grupo,Programação do curso,Acompanhar anúncios,Acompanhar notificações,Recuperação de conteúdo,Map. de Competências,Acompanhar colaboração,Acompanhar dificuldades,Acompanhar questionários,Revisão de textos,Acompanhar tarefas,Acompanhar aulas,Acompanhar exames,Registrar notas,Acompanhar notas/feedback,Orientação,Moderação},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east,font=\tiny},
+    ]
+\addplot+[ybar, draw=blue, fill=blue!40, text=blue] table [x=ferram, y=use, col sep=comma] {data.csv};
+\addplot+[ybar, draw=uclagold, fill=uclagold!40, text=uclagold] table [x=ferram, y=cite, col sep=comma] {data.csv};
+\legend{\strut usadas,  \strut mencionadas}
+\end{axis}
+\end{tikzpicture}
+    \source{a autora}
+\end{figure}
+
+Pela análise do gráfico, pode-se verificar que as duas ferramentas, de uso do docente, mais mencionadas e utilizadas na amostra foram a de Programação do curso e a de Acompanhamento de colaboração. O que é compatível com as ferramentas de uso do aluno mais utilizadas.
+
+Por fim, o gráfico \refFig{fig:alun_profe} demostra lado a lado as ferramentas de uso dos alunos e do professor, relatadas como utilizadas nos documentos. 
+
+\begin{filecontents}{data.csv}
+doc,alun,profe
+T1,3,0
+T2,6,6
+T3,9,2
+T4,3,0
+T5,7,9
+T6,8,6
+T7,4,4
+\end{filecontents}
+\pgfplotstableread[col sep=comma,]{data.csv}\datatable
+
+\begin{figure}[ht!]
+    \centering
+    \label{fig:alun_profe}
+    \caption{Ferramentas do aluno x do professor.}
+\begin{tikzpicture}
+\pgfplotsset{width=11cm, height=4cm,compat=1.6}
+\begin{axis}[
+    ybar,
+	bar width=10pt,
+    ymin=0,
+    ymax=12,	
+	nodes near coords,
+    enlargelimits=0.10,
+    legend style={at={(0.5,-0.48),font=\tiny},
+      anchor=center,legend columns=-1},
+    ylabel={ferramentas do AVA},
+    symbolic x coords={T1,T2,T3,T4,T5,T6,T7},
+    xtick=data,
+    x tick label style={rotate=45,anchor=east,font=\small},
+    ]
+\addplot+[ybar, draw=forestgreen(web), fill=forestgreen(web)!40, text=forestgreen(web)] table [x=doc, y=alun, col sep=comma] {data.csv};
+\addplot+[ybar, draw=blue, fill=blue!40, text=blue] table [x=doc, y=profe, col sep=comma] {data.csv};
+\legend{\strut do aluno,  \strut do professor}
+\end{axis}
+\end{tikzpicture}
+    \source{a autora}
+\end{figure}
+
+Percebe-se pela análise do gráfico que o documento T5 foi o que mais utilizou ferramentas de apoio do professor, o que faz algum sentido já que esse foi o documento que relatou ter realizado todas as avaliações pela plataforma AVA. De forma geral, os trabalhos que relataram propostas de uso de ferramentas de apoio do professor tiveram uma quantidade proporcional de ferramentas do aluno utilizadas.
+
+%\textbf{--> ESTE TRECHO está bastante confuso.}
+%A EAD baseada no uso de Ambientes Virtuais de Aprendizagem possui ainda a característica da sincronicidade: ao capturar os tipos possíveis de avaliação, esse aspecto ainda não estava claro o suficiente e não foi capturado. Porém, ao realizar a análise da adoção das ferramentas, percebe-se que algumas atividades podem acontecer de forma síncrona e outras de forma assíncrona. O que pode indicar uma necessidade de considerar esse aspecto no momento de planejar a avaliação. Assim, um AVA introduz a pergunta ``em que tempo será avaliado''?
+
+\section{Análise da associação de ferramentas e tipos de avaliações}%
+
+A associação das ferramentas disponíveis no perfil do professor com os tipos de avaliação possibilitou um entendimento mais claro sobre o uso do AVA para a avaliação das aprendizagens. Esperava-se, contudo, que houvesse maior associação entre as variáveis ``adoção de ferramentas'' com a variável ``domínio de avaliação'' nos documentos analisados. Porém, somente um documento apresentou explicitamente essa associação, o que prejudicou a realização de um teste mais amplo da matriz de relacionamento apresentada na \refTab{tab:matrizYxW}. Apesar disso, optou-se por utilizar esta seção para a apresentação de uma análise desse caso particular.
+
+O documento T3 foi o único que relatou algum tipo de associação do uso de ferramentas com aspectos e tipos de avaliação. Nesse documento, foi descrito o uso de 9 ferramentas de uso dos alunos e 2 de uso do professor. Ao associar as ferramentas ao aspecto da \textbf{função} da avaliação, a autora fez a associação direta das ferramentas disponíveis no perfil do aluno com as funções somativa, diagnóstica e formativa.
+
+A \refTab{tab:matrizYxW_T3} apresenta a associação capturara pela análise do documento, no mesmo formato do mapeamento apresentado pela \refTab{tab:matrizYxW}, no \refCap{chap:map}.
+
+\begin{table}[ht!]
+\setlength{\bigstrutjot}{3pt}
+\settowidth\rotheadsize{Valores e atitudes}
+\caption{Associação realizada no documento T5.}
+\label{tab:matrizYxW_T3}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\addlinespace \hline
+    \bigstrut &
+        \multicolumn{2}{c|}{\cellcolor{blue!25}forma} & \multicolumn{3}{c|}{\cellcolor{red!25}composição} & \multicolumn{2}{c|}{\cellcolor{green!25}freq.} & \multicolumn{3}{c|}{\cellcolor{uclagold!25}função} & \multicolumn{3}{c|}{\cellcolor{purple!25}objeto} & \multicolumn{2}{c|}{\cellcolor{cyan!25}espaço}\\
+        \cline{2-3} \cline{4-6} \cline{7-8} \cline{9-11} \cline{12-14} \cline{15-16}
+    \bigstrut
+    \textbf{Ferramentas de avaliação}  & \rothead{Formal} & \rothead{Informal} & \rothead{Instrucional} & \rothead{Comportamental} & \rothead{Valores e atitudes} & \rothead{Pontual} & \rothead{Contínua} & \rothead{Somativa} & \rothead{Diagnóstica} & \rothead{Formativa} & \rothead{Aluno} & \rothead{Disciplina} & \rothead{Equipe} & \rothead{Plataforma} & \rothead{App de terceiros}\\
+\hline
+    \bigstrut[t]
+    
+    Fórum	     & & & & & & & & & & \ding{108} & & & & & \\ 
+    \hline
+    Questionário & & & & & & & & \ding{108} & \ding{108} & \ding{108} & & & & & \\ 
+    \hline 
+    Tarefa       & & & & & & & & & & \ding{108} & & & & & \\ 
+    \hline
+\end{tabular}}
+    \begin{tablenotes}
+      \small
+      \item Legenda: \ding{108} Associação.
+    \end{tablenotes}
+\end{table}
+\bigskip
+
+Para fins de comparação, a \refTab{tab:matrizYxW_corte} apresenta um recorte da \refTab{tab:matrizYxW} original logo abaixo. Pela analise das duas tabelas lado a lado pode-se perceber que o mapeamento feito nesse trabalho coincide com a associação realizada no documento T5.
+
+\begin{table}[ht!]
+\setlength{\bigstrutjot}{4pt}
+\settowidth\rotheadsize{Valores e atitudes}
+\caption{Matriz relacional entre as ferramentas de avaliação e funções de avaliação.}
+\label{tab:matrizYxW_corte}
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\addlinespace \hline
+    \bigstrut &
+        \multicolumn{2}{c|}{\cellcolor{blue!25}forma} & \multicolumn{3}{c|}{\cellcolor{red!25}composição} & \multicolumn{2}{c|}{\cellcolor{green!25}freq.} & \multicolumn{3}{c|}{\cellcolor{uclagold!25}função} & \multicolumn{3}{c|}{\cellcolor{purple!25}objeto} & \multicolumn{2}{c|}{\cellcolor{cyan!25}espaço}\\
+        \cline{2-3} \cline{4-6} \cline{7-8} \cline{9-11} \cline{12-14} \cline{15-16}
+    \bigstrut
+    \textbf{Ferramentas de avaliação}  & \rothead{Formal} & \rothead{Informal} & \rothead{Instrucional} & \rothead{Comportamental} & \rothead{Valores e atitudes} & \rothead{Pontual} & \rothead{Contínua} & \rothead{Somativa} & \rothead{Diagnóstica} & \rothead{Formativa} & \rothead{Aluno} & \rothead{Disciplina} & \rothead{Equipe} & \rothead{Plataforma} & \rothead{App de terceiros}\\
+\hline
+    \bigstrut[t]
+    Acomp. colaboração  &\ding{115}&\ding{108}&\ding{115} &\ding{108}&\ding{115}&\ding{53}&\ding{108}&\ding{115}&\ding{108}
+    &\cellcolor{yellow}\ding{108}&\ding{108}&\ding{53}&\ding{108}&\ding{108}&\ding{53}\\ 
+    \hline
+    Acomp. questionários &\ding{108}&\ding{115}&\ding{108} &\ding{115}&\ding{53}&\ding{53}&\ding{108}&\cellcolor{yellow}\ding{115}&\cellcolor{yellow}\ding{115}
+    &\cellcolor{yellow}\ding{108}&\ding{108}&\ding{115}&\ding{53}&\ding{108}&\ding{53}\\ 
+    \hline
+    Acompanhar tarefas &\ding{108}&\ding{53}&\ding{108} &\ding{115}&\ding{53}&\ding{53}&\ding{108}&\ding{108}&\ding{115}
+    &\cellcolor{yellow}\ding{108}&\ding{108}&\ding{115}&\ding{53}&\ding{108}&\ding{115}\\ \hline  
+\end{tabular}}
+    \begin{tablenotes}
+      \small
+      \item Legenda: \ding{108} Aplicável; \ding{115} Parcialmente aplicável; \ding{53} Não aplicável.
+    \end{tablenotes}
+\end{table}
+\bigskip
+
+No entanto, cabe ressaltar que o documento T5 relatou o uso da ferramenta Questionário para aplicar um pré-teste para avaliar os pré-requisitos do curso (diagnostico) e um pós-teste para avaliar as competências, habilidades e conhecimentos desenvolvidos pelos participantes. Pela descrição das ferramentas desse AVA, a ferramenta indicada para essas finalidades é a ferramenta Enquete e Exame.
+
+Mesmo assim, o mapeamento realizado nesse trabalho conseguiu capturar que a ferramenta de acompanhamento do professor identificada como ``Acompanhamento de questionário'' que habilita a ferramenta de uso do aluno identificada como ``Questionário'' poderia ser utilizada para avaliações diagnósticas e somativas com sucesso.
+
+Além disso, a matriz de mapeamento das ferramentas com os tipos de avaliação (\refTab{tab:matrizYxW}) serviu para identificar tipos de avaliação durante a análise documental, conforme relatado na seção \ref{sec:analise_aval}.
+
+Com isso, o objetivo geral de se investigar o emprego da avaliação para as aprendizagens em AVA, por intermédio das funcionalidade disponíveis, foi alcançado. No próximo capítulo será apresentado as considerações finais desse estudo.
+
